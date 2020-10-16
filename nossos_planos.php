@@ -21,7 +21,7 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="section-title-wrapper text-center section-space--mb_60 wow move-up animated" style="visibility: visible;">
-                                <h6 class="section-sub-title mb-20">Style 02</h6>
+                                <h6 class="section-sub-title mb-20">PLANOS RESIDENCIAIS </h6>
                                 <h3 class="section-title">Ótimo plano de preços <span class="text-color-primary"> para você!</span> </h3>
                             </div>
                         </div>
@@ -118,6 +118,14 @@
                 </div>
             </div>
         </div>
+        <center>
+            <h6>Saiba mais</h6>
+            <p>Saiba mais sobre nossos planos <b>comerciais</b> e <b>corporativos</b>.</p>
+            <div class="pricing-table__footer">
+                <a href="fale_conosco.php" class="ht-btn ht-btn-default btn--secondary">Entre em contato</a>
+            </div>
+            <br/>
+        </center>
     </div>
 
 

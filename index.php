@@ -382,77 +382,71 @@
 
                             <div class="col-lg-3 col-md-6 mt-30">
                                 <!-- Box large image warap Start -->
-                                <a href="#" class="box-large-image__two">
-                                    <div class="box-large-image__two__box">
-                                        <div class="box-large-image__midea">
-                                            <div class="single-gallery__thum bg-item-images bg-img" data-bg="assets/client/student.jpg"></div>
-                                        </div>
+                                <div class="box-large-image__two__box">
+                                    <div class="box-large-image__midea">
+                                        <div class="single-gallery__thum bg-item-images bg-img" data-bg="assets/client/student.jpg"></div>
+                                    </div>
 
-                                        <div class="box-info">
-                                            <h5 class="heading">Starter</h5>
-                                            <div class="box-more-info">
-                                                <div class="text">Plano inicial, perfeito para você que precisa executar funcionalidades básicas, como estudar e assistir aquela netflix topzera.
-                                                    Se conecte utilizando 25 MB de internet 100% Fibra Otica.
-                                                    <strong> R$ 99<sup>,90</sup> </strong>
-                                                </div>
-                                                <button class="button">Saiba mais</button>
+                                    <div class="box-info">
+                                        <h5 class="heading">Starter</h5>
+                                        <div class="box-more-info">
+                                            <div class="text">Plano inicial, perfeito para você que precisa executar funcionalidades básicas, como estudar e assistir aquela netflix topzera.
+                                                Se conecte utilizando 25 MB de internet 100% Fibra Otica.
+                                                <strong> R$ 99<sup>,90</sup> </strong>
                                             </div>
+                                            <button class="button">Saiba mais</button>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                                 <!-- Box large image warap End -->
                             </div>
 
                             <div class="col-lg-6 col-md-6  mt-30">
                                 <!-- Box large image warap Start -->
-                                <a href="#" class="box-large-image__two">
-                                    <div class="box-large-image__two__box">
-                                        <div class="box-large-image__midea">
-                                            <div class="single-gallery__thum bg-item-images bg-img" data-bg="assets/client/family.jpg"></div>
-                                        </div>
+                                <div class="box-large-image__two__box">
+                                    <div class="box-large-image__midea">
+                                        <div class="single-gallery__thum bg-item-images bg-img" data-bg="assets/client/family.jpg"></div>
+                                    </div>
 
-                                        <div class="box-info">
-                                            <h5 class="heading">Family</h5>
-                                            <div class="box-more-info">
-                                                <div class="text">
+                                    <div class="box-info">
+                                        <h5 class="heading">Family</h5>
+                                        <div class="box-more-info">
+                                            <div class="text">
 
-                                                    Familia desconectada ? Nunca mais, quartos, sala e cozinha 100% conectada. Otimo para sentar todos no sofá e ver aquele filminho! <br />
-                                                    Conecte todos utilizando 100% fibra otica no plano de 50 MB de internet.
+                                                Familia desconectada ? Nunca mais, quartos, sala e cozinha 100% conectada. Otimo para sentar todos no sofá e ver aquele filminho! <br />
+                                                Conecte todos utilizando 100% fibra otica no plano de 50 MB de internet.
 
-                                                    <br> <strong> R$ 99<sup>,90</sup> </strong>
+                                                <br> <strong> R$ 99<sup>,90</sup> </strong>
 
-                                                </div>
-                                                <button class="button">Saiba mais</button>
                                             </div>
+                                            <button class="button">Saiba mais</button>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                                 <!-- Box large image warap End -->
                             </div>
 
                             <div class="col-lg-3 col-md-6 mt-30">
                                 <!-- Box large image warap Start -->
-                                <a href="#" class="box-large-image__two">
-                                    <div class="box-large-image__two__box">
-                                        <div class="box-large-image__midea">
-                                            <div class="single-gallery__thum bg-item-images bg-img" data-bg="assets/client/gamer.jpg"></div>
-                                        </div>
+                                <div class="box-large-image__two__box">
+                                    <div class="box-large-image__midea">
+                                        <div class="single-gallery__thum bg-item-images bg-img" data-bg="assets/client/gamer.jpg"></div>
+                                    </div>
 
-                                        <div class="box-info">
-                                            <h5 class="heading">Premium</h5>
-                                            <div class="box-more-info">
-                                                <div class="text">
-                                                    Eu sei como e o Ping lá em baixo no meio do game, e
-                                                    por isso que eu estou te oferecendo a melhor experiencia
-                                                    para você nunca mais perder uma <i>kill</i>.
-                                                    200 MB de internet Fibra Otica. Apenas
-                                                    <strong> R$ 99<sup>,90</sup> </strong>
-                                                </div>
-                                                <button class="button">Saiba mais</button>
+                                    <div class="box-info">
+                                        <h5 class="heading">Premium</h5>
+                                        <div class="box-more-info">
+                                            <div class="text">
+                                                Eu sei como e o Ping lá em baixo no meio do game, e
+                                                por isso que eu estou te oferecendo a melhor experiencia
+                                                para você nunca mais perder uma <i>kill</i>.
+                                                200 MB de internet Fibra Otica. Apenas
+                                                <strong> R$ 99<sup>,90</sup> </strong>
                                             </div>
+                                            <button class="button">Saiba mais</button>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                                 <!-- Box large image warap End -->
                             </div>
 

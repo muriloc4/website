@@ -1,0 +1,33 @@
+.button {
+  border: none;
+  padding: 6px 20px;
+  border: 1px solid #f1f1f1;
+  color: #f1f1f1;
+  font-weight: bold;
+  background-color: transparent;
+  border-radius: 8px;
+}
+
+.button:hover {
+  color: var(--primary);
+  background-color: #f1f1f1;
+}
+.button-dark {
+  border: none;
+  padding: 6px 20px;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  font-weight: bold;
+  background-color: transparent;
+  border-radius: 8px;
+  box-shadow: 7px 6px 20px -18px rgba(0,0,0,0.75);
+}
+
+.button-dark:hover {
+  color: #fff;
+  background-color: var(--primary);
+}
+.button-block {
+  width: 100%;
+  text-align: center;
+}

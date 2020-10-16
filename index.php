@@ -25,7 +25,7 @@
                             <h1 class="font-weight--reguler mb-15">NWT <span class="text-color-secondary"> Conectando você ao mundo !</span></h1>
                             <p>Internet de Ultra velocidade, 100% Fibra Ótica</p>
                             <div class="hero-button mt-30">
-                                <a href="#" class="btn btn--secondary">Conheça nossos planos</a>
+                                <a href="#plains_list_01" class="btn btn--secondary">Conheça nossos planos</a>
                                 <!-- <div class="hero-popup-video video-popup">
                                     <a href="https://www.youtube.com/watch?v=vqZuSUtczbU" class="video-link">
                                         <div class="video-content">
@@ -365,7 +365,7 @@
         <div class="feature-large-images-wrapper section-space--ptb_100">
             <div class="container">
 
-                <div class="row">
+                <div class="row" id="plains_list_01">
                     <div class="col-lg-12">
                         <!-- section-title-wrap Start -->
                         <div class="section-title-wrap text-center section-space--mb_30">
@@ -456,70 +456,11 @@
                                 <!-- Box large image warap End -->
                             </div>
 
-                            <!-- <div class="col-lg-4 col-md-6 mt-30">
-                                <a href="#" class="box-large-image__two">
-                                    <div class="box-large-image__two__box">
-                                        <div class="box-large-image__midea">
-                                            <div class="single-gallery__thum bg-item-images bg-img" data-bg="assets/images/box-image/home-processing-software-image-04.jpg"></div>
-                                        </div>
-
-                                        <div class="box-info">
-                                            <h5 class="heading">Business Reform</h5>
-                                            <div class="box-more-info">
-                                                <div class="text">We provide the most responsive and functional IT design for companies and businesses worldwide.</div>
-                                                <div class="btn">
-                                                    <i class="button-icon far fa-long-arrow-right"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div> -->
-
-                            <!-- <div class="col-lg-4 col-md-6 mt-30">
-                                <a href="#" class="box-large-image__two">
-                                    <div class="box-large-image__two__box">
-                                        <div class="box-large-image__midea">
-                                            <div class="single-gallery__thum bg-item-images bg-img" data-bg="assets/images/box-image/mitech-home-infotechno-box-large-image_02-330x330.jpg"></div>
-                                        </div>
-
-                                        <div class="box-info">
-                                            <h5 class="heading">Infrastructure Plan</h5>
-                                            <div class="box-more-info">
-                                                <div class="text">We provide the most responsive and functional IT design for companies and businesses worldwide.</div>
-                                                <div class="btn">
-                                                    <i class="button-icon far fa-long-arrow-right"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div> -->
-
-                            <!-- <div class="col-lg-4 col-md-6 mt-30">
-                                <a href="#" class="box-large-image__two">
-                                    <div class="box-large-image__two__box">
-                                        <div class="box-large-image__midea">
-                                            <div class="single-gallery__thum bg-item-images bg-img" data-bg="assets/images/box-image/mitech-home-infotechno-box-large-image_04-330x330.jpg"></div>
-                                        </div>
-
-                                        <div class="box-info">
-                                            <h5 class="heading">Firewall Advancement</h5>
-                                            <div class="box-more-info">
-                                                <div class="text">We provide the most responsive and functional IT design for companies and businesses worldwide.</div>
-                                                <div class="btn">
-                                                    <i class="button-icon far fa-long-arrow-right"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div> -->
 
                         </div>
                         <div class="col-lg-12">
                             <div class="feature-list-button-box mt-40 text-center">
-                                <a href="#" class="ht-btn ht-btn-md ht-btn--outline">Entre em contato</a>
+                                <a href="nossos_planos.php" class="ht-btn ht-btn-md ht-btn--outline">Veja mais planos</a>
                             </div>
                         </div>
 

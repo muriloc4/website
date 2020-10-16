@@ -34,8 +34,8 @@
                             <li class="has-children">
                                 <a href="#">Sobre</a>
                                 <ul class="sub-menu">
-                                    <li><a href="it-services.html"><span>Fale Conosco</span></a></li>
-                                    <li><a href="it-services.html"><span>Nossos Planos </span></a></li>
+                                    <li><a href="fale_conosco.php"><span>Fale Conosco</span></a></li>
+                                    <li><a href="nossos_planos.php"><span>Nossos Planos </span></a></li>
                                 </ul>
                             </li>
                         </ul>

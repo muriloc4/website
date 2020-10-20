@@ -139,6 +139,11 @@
 <!-- Swiper Slider JS -->
 <script src="assets/js/plugins/swiper.min.js"></script>
 
+<!-- Alert -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<!-- Axios -->
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
 <!-- Light gallery JS -->
 <script src="assets/js/plugins/lightgallery.min.js"></script>
 

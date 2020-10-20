@@ -8,7 +8,7 @@
                 <div class="header position-relative">
                     <!-- brand logo -->
                     <div class="header__logo">
-                        <a href="index.html">
+                        <a href="index.php">
                             <img src="assets/images/logomarca.png" class="img-fluid" alt="">
                         </a>
                     </div>

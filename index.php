@@ -25,19 +25,8 @@
                             <h1 class="font-weight--reguler mb-15">NWT <span class="text-color-secondary"> Conectando você ao mundo !</span></h1>
                             <p>Internet de Ultra velocidade, 100% Fibra Ótica</p>
                             <div class="hero-button mt-30">
-                                <a href="#" class="btn btn--secondary">Conheça nossos planos</a>
-                                <!-- <div class="hero-popup-video video-popup">
-                                    <a href="https://www.youtube.com/watch?v=vqZuSUtczbU" class="video-link">
-                                        <div class="video-content">
-                                            <div class="video-play">
-                                                <span class="video-play-icon">
-                                            <i class="fa fa-play"></i>
-                                        </span>
-                                            </div>
-                                            <div class="video-text"> How we work</div>
-                                        </div>
-                                    </a>
-                                </div> -->
+                                <a href="nossos_planos.php" class="btn btn--secondary">Conheça nossos planos</a>
+
                             </div>
                         </div>
                     </div>
@@ -144,11 +133,11 @@
                                                 <div class="wave-pulse wave-pulse-1"></div>
                                                 <div class="wave-pulse wave-pulse-2"></div>
                                             </div>
-                                            <div class="video-button__two">
+                                            <!-- <div class="video-button__two">
                                                 <div class="video-play">
                                                     <span class="video-play-icon"></span>
                                                 </div>
-                                            </div>
+                                            </div> -->
                                         </div>
                                     </div>
                                 </a>
@@ -729,7 +718,7 @@
                             <h6 class="heading font-weight--reguler">Entre em contato agora!</h6>
                             <h2 class="call-us"><a href="tel:190068668">4062 9035</a></h2>
                             <div class="contact-us-button mt-20">
-                                <a href="#" class="btn btn--secondary">Entre em contato</a>
+                                <a href="tel:+552740629035" class="btn btn--secondary">Entre em contato</a>
                             </div>
                         </div>
                     </div>
@@ -739,7 +728,8 @@
         <!--====================  Conact us Section End  ====================-->
     </div>
 
-
-
-
-    <?php include("includes/footer.php"); ?>
+    <?php
+    include("includes/footer.php");
+    include("includes/modal_comercial.php");
+    include("includes/modal_corporativo.php");
+    ?>

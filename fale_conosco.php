@@ -28,20 +28,20 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="contact-form-wrap">
-                            <form id="contact-form" action="assets/php/mail.php" method="post">
+                            <form id="enviarMensagem">
                                 <div class="contact-form__two">
                                     <div class="contact-input">
                                         <div class="contact-inner">
-                                            <input name="con_name" type="text" placeholder="Nome *" required>
+                                            <input name="con_name" id="name" type="text" placeholder="Nome *" required>
                                         </div>
                                         <div class="contact-inner">
-                                            <input name="con_email" type="email" placeholder="E-mail *" required>
+                                            <input name="con_email" id="email" type="email" placeholder="E-mail *" required>
                                         </div>
                                     </div>
                                     <div class="contact-select">
                                         <div class="form-item contact-inner">
                                             <span class="inquiry">
-                                                <select name="inquiry" class="select-item">
+                                                <select name="inquiry" id="inquiry" class="select-item">
                                                     <option value="Your inquiry about" disabled selected>Sobre o que e sua mensagem ?</option>
                                                     <option value="General Information Request">Sugestão</option>
                                                     <option value="Partner Relations">Reclamação</option>
@@ -51,7 +51,7 @@
                                         </div>
                                     </div>
                                     <div class="contact-inner contact-message">
-                                        <textarea name="con_message" placeholder="Suas dúvidas, reclamações ou sugestões.."></textarea>
+                                        <textarea name="con_message" placeholder="Suas dúvidas, reclamações ou sugestões.." id="message"></textarea>
                                     </div>
                                     <div class="comment-submit-btn">
                                         <button class="ht-btn ht-btn-md" type="submit">
@@ -82,3 +82,31 @@
 
 
     <?php include("includes/footer.php"); ?>
+    <script>
+        $("#enviarMensagem").submit(function(event) {
+            event.preventDefault();
+
+            const url = "http://localhost:8080/mail/sendemail";
+            let data = {
+                name: $("#name").val(),
+                email: $("#email").val(),
+                subject: $("#inquiry").val(),
+                message: $("#message").val()
+            }
+            axios.post(url, data).then(response => {
+                const {
+                    data
+                } = response;
+
+                if (data.status === true) {
+                    Swal.fire(
+                        'Uhuu! ',
+                        'Enviado com sucesso.',
+                        'success'
+                    )
+                } else {
+                    Swal.fire('Keep me Calm !', "Houve um erro ao enviar sua mensagem", 'error')
+                }
+            });
+        });
+    </script>

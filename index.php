@@ -720,6 +720,10 @@
                             <div class="contact-us-button mt-20">
                                 <a href="tel:+552740629035" class="btn btn--secondary">Entre em contato</a>
                             </div>
+                            <div class="contact-us-button mt-20">
+
+                                <button type="button" data-toggle="modal" data-target="#modalMeLigue" class="btn btn--primary">Quero que a NWT me Ligue!</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -727,9 +731,20 @@
         </div>
         <!--====================  Conact us Section End  ====================-->
     </div>
-
     <?php
     include("includes/footer.php");
+    ?>
+    <script>
+        (function(w, d, u) {
+            var s = d.createElement('script');
+            s.async = true;
+            s.src = u + '?' + (Date.now() / 60000 | 0);
+            var h = d.getElementsByTagName('script')[0];
+            h.parentNode.insertBefore(s, h);
+        })(window, document, 'https://cdn.bitrix24.com.br/b14596139/crm/site_button/loader_2_l2e24e.js');
+    </script>
+    <?php
     include("includes/modal_comercial.php");
     include("includes/modal_corporativo.php");
+    include("includes/meligue.php");
     ?>
